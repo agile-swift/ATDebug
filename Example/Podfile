@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ATDebug_Example' do
+  pod 'ATDebug', :path => '../'
+
+  target 'ATDebug_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
