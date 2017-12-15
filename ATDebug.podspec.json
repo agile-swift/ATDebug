@@ -1,0 +1,28 @@
+{
+  "name": "ATDebug",
+  "version": "0.1.0",
+  "summary": "A short description of ATDebug.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/agile-swift/ATDebug",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "devkevinma@gmail.com": "admin@makaiwen.com"
+  },
+  "source": {
+    "git": "https://github.com/agile-swift/ATDebug.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "ATDebug/Classes/**/*",
+  "dependencies": {
+      "ATFoundation": [ ],
+      "ATUIKit": [ ],
+      "ATRequest": [ ],
+      "GDPerformanceView-Swift" :["~> 1.3.2"]
+  }
+}

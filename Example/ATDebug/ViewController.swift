@@ -7,12 +7,17 @@
 //
 
 import UIKit
+import ATDebug
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.view.backgroundColor = UIColor.white
         // Do any additional setup after loading the view, typically from a nib.
+        DebugManager.shared.registerItemWithTitle("自定义测试", desc: "你点一下试试") { (reload) -> (Void) in
+            print("点就点了吧~")
+        }
     }
 
     override func didReceiveMemoryWarning() {
