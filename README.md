@@ -1,29 +1,31 @@
 # ATDebug
 
-[![CI Status](http://img.shields.io/travis/devkevinma@gmail.com/ATDebug.svg?style=flat)](https://travis-ci.org/devkevinma@gmail.com/ATDebug)
-[![Version](https://img.shields.io/cocoapods/v/ATDebug.svg?style=flat)](http://cocoapods.org/pods/ATDebug)
-[![License](https://img.shields.io/cocoapods/l/ATDebug.svg?style=flat)](http://cocoapods.org/pods/ATDebug)
-[![Platform](https://img.shields.io/cocoapods/p/ATDebug.svg?style=flat)](http://cocoapods.org/pods/ATDebug)
+开发调试功能集成
 
-## Example
+## 集成([CocoaPods](http://cocoapods.org))
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+在 podfile 文件中添加
 
-## Requirements
-
-## Installation
-
-ATDebug is available through [CocoaPods](http://cocoapods.org). To install
-it, simply add the following line to your Podfile:
-
-```ruby
+```
+source "https://github.com/agile-swift/Specs.git"
 pod 'ATDebug'
 ```
 
-## Author
+
+## 详细信息
+
+请移步[https://github.com/agile-swift/AgileTools/blob/master/README.md](https://github.com/agile-swift/AgileTools/blob/master/README.md)
+
+
+## 功能
+
+* 点击状态栏启动调试选项
+* 基于[ATFoundation](https://github.com/agile-swift/ATFoundation)的调试日志控制及屏幕显示
+* 基于[ATRequest](https://github.com/agile-swift/ATRequest)的网络环境切换
+* 性能测试：FPS，CPU，Memory等
+* 应用信息展示
+* 自定义其他功能
+
+## 反馈
 
 devkevinma@gmail.com, admin@makaiwen.com
-
-## License
-
-ATDebug is available under the MIT license. See the LICENSE file for more info.
