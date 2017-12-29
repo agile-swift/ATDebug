@@ -1,6 +1,6 @@
 {
   "name": "ATDebug",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "summary": "A short description of ATDebug.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/agile-swift/ATDebug",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/agile-swift/ATDebug.git",
-    "tag": "0.1.1"
+    "tag": "0.1.2"
   },
   "platforms": {
     "ios": "9.0"
