@@ -7,12 +7,7 @@ use_frameworks!
 
 target 'ATDebug_Example' do
   pod 'ATDebug', :path => '../'
-  pod 'ATFoundation', :path => '../../ATFoundation'
-  pod 'ATUIKit', :path => '../../ATUIKit'
-
   target 'ATDebug_Tests' do
     inherit! :search_paths
-
-    
   end
 end
