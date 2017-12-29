@@ -68,7 +68,7 @@ class DebugViewController: ViewController {
         registerItemWithTitle("日志输出", value: { () -> (DebugValue) in
             return .switchValue(LogManager.shared.logEnable)
         }, desc: "ATFoundation中logger函数输出") { (reload) -> (Void) in
-            LogManager.shared.logEnable ? LogManager.shared.disableLog() : LogManager.shared.enbaleLog()
+            LogManager.shared.logEnable ? LogManager.shared.disableLog() : LogManager.shared.enableLog()
             reload()
         }
         
