@@ -54,7 +54,9 @@ class DebugWindow: UIWindow {
     }
     
     override func hitTest(_ point: CGPoint, with event: UIEvent?) -> UIView? {
-        clickAction()
+        if super.hitTest(point, with: event) == self.rootViewController?.view {
+            clickAction()
+        }
         let keyWindow = UIApplication.shared.delegate?.window
         return keyWindow??.hitTest(point, with: event)
     }
