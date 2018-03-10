@@ -23,7 +23,7 @@ pod 'ATDebug'
 * 基于[ATFoundation](https://github.com/agile-swift/ATFoundation)的调试日志控制及屏幕显示
 * 基于[ATRequest](https://github.com/agile-swift/ATRequest)的网络环境切换
 * 性能测试：FPS，CPU，Memory等
-* 应用信息展示
+* 应用信息展示 
 * 自定义其他功能
 
 ## 反馈
