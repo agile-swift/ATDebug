@@ -40,8 +40,6 @@ import ATFoundation
         didSet {
             if showLog {
                 self.isHidden = false
-                makeKeyAndVisible()
-                resignKey()
                 LogManager.shared.delegate = self
             } else {
                 LogManager.shared.delegate = nil

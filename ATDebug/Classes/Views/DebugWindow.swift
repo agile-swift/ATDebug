@@ -41,8 +41,6 @@ class DebugWindow: UIWindow {
         didSet {
             if enableDebug {
                 self.isHidden = false
-                makeKeyAndVisible()
-                resignKey()
             } else {
                 self.isHidden = true
             }
