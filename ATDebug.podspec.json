@@ -23,6 +23,6 @@
       "ATFoundation": [ ],
       "ATUIKit": [ ],
       "ATRequest": [ ],
-      "GDPerformanceView-Swift" :["~> 1.3.2"]
+      "GDPerformanceView-Swift" :[]
   }
 }

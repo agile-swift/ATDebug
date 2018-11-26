@@ -8,7 +8,7 @@
 import UIKit
 import ATUIKit
 
-let UIWindowLevelDebug : UIWindowLevel = UIWindowLevelStatusBar + 500
+let UIWindowLevelDebug : UIWindow.Level = UIWindow.Level.statusBar + 500
 
 protocol DebugWindowDelegate : class {
     func debugWindow(_ window:DebugWindow,didFinishClickWithTimes times:Int)

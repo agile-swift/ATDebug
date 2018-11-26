@@ -88,12 +88,10 @@ class DebugViewController: ViewController {
         }, desc: "点击开启关闭性能测试") { (reload) -> (Void) in
             if DebugManager.shared.performanceShow {
                 DebugManager.shared.performanceShow = false
-                GDPerformanceMonitor.sharedInstance.stopMonitoring()
+                PerformanceMonitor.shared().pause()
             } else {
                 DebugManager.shared.performanceShow = true
-                GDPerformanceMonitor.sharedInstance.startMonitoring()
-                GDPerformanceMonitor.sharedInstance.appVersionHidden = true
-                GDPerformanceMonitor.sharedInstance.deviceVersionHidden = true
+                PerformanceMonitor.shared().start()
             }
             reload()
         }
